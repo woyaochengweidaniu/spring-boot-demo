@@ -1,0 +1,9 @@
+# Project exclude paths
+/spring-boot-demo-cache-ehcache/target/
+/spring-boot-demo-cache-redis/target/
+/spring-boot-demo-es-elasticsearch/target/
+/spring-boot-demo-es-elasticsearch-high-level-client/target/
+/spring-boot-demo-mongo/target/
+/spring-boot-demo-mq-kafak/target/
+/spring-boot-demo-mq-rabbitmq/target/
+/spring-boot-demo-mq-rocketmq/target/

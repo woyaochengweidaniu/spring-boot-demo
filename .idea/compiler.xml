@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-demo-mongo" />
+        <module name="spring-boot-demo-cache-ehcache" />
+        <module name="spring-boot-demo-es-elasticsearch-high-level-client" />
+        <module name="spring-boot-demo-mq-kafak" />
+        <module name="spring-boot-demo-mq-rabbitmq" />
+        <module name="spring-boot-demo-cache-redis" />
+        <module name="spring-boot-demo-es-elasticsearch" />
+        <module name="spring-boot-demo-mq-rocketmq" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
