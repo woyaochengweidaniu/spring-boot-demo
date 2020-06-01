@@ -7,14 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-demo-mongo" />
-        <module name="spring-boot-demo-cache-ehcache" />
-        <module name="spring-boot-demo-es-elasticsearch-high-level-client" />
-        <module name="spring-boot-demo-mq-kafak" />
         <module name="spring-boot-demo-mq-rabbitmq" />
         <module name="spring-boot-demo-cache-redis" />
+        <module name="spring-boot-demo-properties" />
+        <module name="spring-boot-demo-cache-ehcache" />
+        <module name="spring-boot-demo-mq-kafak" />
+        <module name="spring-boot-demo-dao-myabtisplus" />
+        <module name="spring-boot-demo-dao-mybatis" />
+        <module name="spring-boot-demo-es-elasticsearch-high-level-client" />
         <module name="spring-boot-demo-es-elasticsearch" />
         <module name="spring-boot-demo-mq-rocketmq" />
+        <module name="spring-boot-demo-dao-jpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-demo-mybatisplus" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

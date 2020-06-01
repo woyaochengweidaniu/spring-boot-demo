@@ -17,6 +17,10 @@
         <module>spring-boot-demo-es-elasticsearch</module>
         <module>spring-boot-demo-es-elasticsearch-high-level-client</module>
         <module>spring-boot-demo-mongo</module>
+        <module>spring-boot-demo-dao-mybatis</module>
+        <module>spring-boot-demo-dao-myabtisplus</module>
+        <module>spring-boot-demo-dao-jpa</module>
+        <module>spring-boot-demo-properties</module>
     </modules>
 
 
