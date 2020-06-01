@@ -1,3 +1,4 @@
+
 demo:
   data:
     elasticsearch:
@@ -6,3 +7,5 @@ demo:
       index:
         number-of-replicas: 0
         number-of-shards: 3
+server:
+  port: 8083

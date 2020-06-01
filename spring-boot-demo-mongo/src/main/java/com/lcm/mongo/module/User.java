@@ -11,11 +11,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Data
 @Builder
-@Document
+@Document(value = "user")
 public class User {
 
     @Id
     private String id;
 
     private String userName;
+
+    private Integer age;
 }

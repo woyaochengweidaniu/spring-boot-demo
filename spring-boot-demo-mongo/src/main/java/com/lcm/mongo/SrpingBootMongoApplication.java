@@ -2,10 +2,7 @@ package com.lcm.mongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.mongodb.MongoDbFactory;
-import org.springframework.data.mongodb.MongoTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
+
 
 /**
  * @Author LiuChaomin
