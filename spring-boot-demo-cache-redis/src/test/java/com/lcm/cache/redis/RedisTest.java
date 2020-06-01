@@ -46,4 +46,11 @@ public class RedisTest extends SpringbootCacheRedisApplicationTests {
         User user = (User) redisCacheTemplate.opsForValue().get(key);
         logger.debug("【user】= {}", user);
     }
+
+    @Test
+    public void simpleGet(){
+        stringRedisTemplate.opsForValue().set("mm","世界那么大还是遇见了你");
+        String mm = stringRedisTemplate.opsForValue().get("mm");
+        System.out.println(mm);
+    }
 }

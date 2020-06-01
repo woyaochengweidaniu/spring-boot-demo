@@ -28,6 +28,7 @@ public class UserServiceTest extends SpringbootCacheRedisApplicationTests {
     @Autowired
     private StringRedisTemplate redisTemplate;
 
+
     /**
      * 获取两次，查看日志验证缓存
      */
