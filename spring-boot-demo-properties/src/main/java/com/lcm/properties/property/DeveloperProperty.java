@@ -17,4 +17,5 @@ public class DeveloperProperty {
 	private String website;
 	private String qq;
 	private String phoneNumber;
+
 }
