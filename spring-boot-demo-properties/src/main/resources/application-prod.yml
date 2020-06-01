@@ -1,0 +1,8 @@
+application:
+  name: prod环境 @artifactId@
+  version: prod环境 @version@
+developer:
+  name: prod环境 liuchaomin
+  website: prod环境 http://liuchaomin.com
+  qq: prod环境 418458127
+  phone-number: prod环境 18839127121

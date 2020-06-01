@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 liuchaomin
+  website: dev环境 http://liuchaomin.com
+  qq: dev环境 418458127
+  phone-number: dev环境 12387213
