@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
  * 开发人员配置信息
  * </p>
  */
+
+
 @Data
 @ConfigurationProperties(prefix = "developer")
 @Component
