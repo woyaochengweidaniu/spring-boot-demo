@@ -117,7 +117,11 @@ public class TemplateTest extends SpringbootMongoApplicationTest {
         TypedAggregation<User> aggregation = Aggregation.newAggregation(User.class, groupOperation);
         AggregationResults<User> aggregate = mongoTemplate.aggregate(aggregation, User.class);
         Document rawResults = aggregate.getRawResults();
-        System.out.println(rawResults);
+        List<Document> results = (List<Document>) rawResults.get("results");
+        for (Document result : results) {
+            System.out.println(result.values());
+        }
+//        System.out.println(rawResults);
     }
 
 

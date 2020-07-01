@@ -11,13 +11,6 @@ import java.util.Date;
  * <p>
  * 用户实体类
  * </p>
- *
- * @package: com.xkcoding.orm.jpa.entity
- * @description: 用户实体类
- * @author: yangkai.shen
- * @date: Created in 2018/11/7 14:06
- * @copyright: Copyright (c)
- * @version: V1.0
  * @modified: 76peter
  */
 @EqualsAndHashCode(callSuper = true)
