@@ -21,3 +21,6 @@ logging:
 
 server:
   port: 8086
+
+mybatis-plus:
+  config-location: classpath*:/work/**/*.xml

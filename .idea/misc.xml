@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/mongo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-demo-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo-quarzt/pom.xml" />
       </set>
     </option>
   </component>

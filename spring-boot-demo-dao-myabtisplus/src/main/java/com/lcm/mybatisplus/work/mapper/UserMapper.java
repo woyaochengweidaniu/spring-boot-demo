@@ -2,6 +2,9 @@ package com.lcm.mybatisplus.work.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lcm.mybatisplus.work.entity.User;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.ResultType;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -16,6 +19,15 @@ import java.util.List;
 public interface UserMapper extends BaseMapper<User> {
 
 
-    List<User> select(int age);
+    /**
+     * 使用mybatis的注解进行sql语句查询
+     * @param age   年龄
+     * @return  返回结果集
+     */
+    @Select("select * from user where age = #{age}")
+    @ResultType(User.class)
+    List<User> select(@Param("age") int age);
+
+
 
 }
