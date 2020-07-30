@@ -20,7 +20,6 @@ import java.util.List;
 @Repository
 public interface UserDao extends JpaRepository<User, Long> {
 
-
     Page<User> findAllByNameContaining(String name,Pageable pageable);
 
 }
