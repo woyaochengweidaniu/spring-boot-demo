@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @MapperScan(basePackages = {"com.lcm.mybatisplus.work.mapper"})
 @EnableTransactionManagement
 public class MybatisPlusConfig {
+
     /**
      * 性能分析拦截器，不建议生产使用
      */
